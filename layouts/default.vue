@@ -4,8 +4,7 @@
         <div id="content-wrapper" class="d-flex flex-column">
 			<div id="content">
                 <app-header v-if="isAuth"></app-header>
-                <nuxt/>
-
+                    <Nuxt/>
             </div>
         </div>
     </div>

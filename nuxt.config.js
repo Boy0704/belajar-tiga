@@ -15,10 +15,19 @@ export default {
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    script: [
+      { src: "/vendor/jquery/jquery.min.js" },
+      { src: "/vendor/bootstrap/js/bootstrap.bundle.min.js" },
+      { src: "/vendor/jquery-easing/jquery.easing.min.js" },
+      { src: "/js/sb-admin-2.min.js" }
+    ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
+  css: [
+    '@/assets/vendor/fontawesome-free/css/all.min.css',
+    '@/assets/css/sb-admin-2.min.css'
+  ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
